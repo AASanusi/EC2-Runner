@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "aastfremote"
+    bucket         = "iacmade28may"
     region         = "eu-west-2"
     key            = "Github-Runner-TF/terraform.tfstate"
     encrypt        = true
